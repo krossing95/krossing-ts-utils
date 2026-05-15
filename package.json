@@ -1,0 +1,21 @@
+{
+  "name": "krossing-ts-utils",
+  "version": "0.0.1",
+  "description": "This package consists of various utility or helper functions to enable easy development in Typescript.",
+  "main": "index.ts",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsc && nodemon index.ts",
+    "build": "tsc"
+  },
+  "author": "Krossing Technology",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.8.0",
+    "typescript": "^6.0.3"
+  }
+}
