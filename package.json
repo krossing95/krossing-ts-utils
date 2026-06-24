@@ -1,6 +1,6 @@
 {
   "name": "krossing-ts-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This package consists of various utility or helper functions to enable easy development in Typescript.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
