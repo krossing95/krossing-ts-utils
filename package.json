@@ -1,6 +1,6 @@
 {
   "name": "krossing-ts-utils",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "This package consists of various utility or helper functions to enable easy development in Typescript.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -10,7 +10,7 @@
       "import": "./dist/index.js",
       "require": "./dist/index.js"
     },
-     "./http-status-codes": {
+    "./http-status-codes": {
       "types": "./dist/lib/http/status-codes.http.lib.d.ts",
       "import": "./dist/lib/http/status-codes.http.lib.js",
       "require": "./dist/lib/http/status-codes.http.lib.js"
