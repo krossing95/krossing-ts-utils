@@ -64,4 +64,3 @@ export declare const HttpStatus: {
         readonly NETWORK_AUTHENTICATION_REQUIRED: 511;
     };
 };
-//# sourceMappingURL=status-codes.http.lib.d.ts.map

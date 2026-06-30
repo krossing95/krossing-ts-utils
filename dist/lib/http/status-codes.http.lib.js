@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.HttpStatus = void 0;
 const INFORMATIONAL = {
     CONTINUE: 100,
     SWITCHING_PROTOCOLS: 101,
@@ -65,7 +62,7 @@ const SERVER_ERRORS = {
     NOT_EXTENDED: 510,
     NETWORK_AUTHENTICATION_REQUIRED: 511,
 };
-exports.HttpStatus = {
+export const HttpStatus = {
     INFORMATIONAL,
     SUCCESS,
     CLIENT_300_ERRORS,
